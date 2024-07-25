@@ -27,46 +27,47 @@
   <link href="css/style.css" rel="stylesheet">
   
   <!--Favicon-->
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/rpl_logo.png" type="image/x-icon">
+  <link rel="icon" href="images/rpl_logo.png" type="image/x-icon">
 
 </head>
 
 <body>
   
 
-<header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark" >
-    <a class="navbar-brand" href="index.html"><img src="images/rpl_logo.png" alt="Egen" class="img-fluid" style="width: 90px;"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" style="color: gold;" href="index.html">Beranda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: gold;" href="about.html">Tentang</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: gold;" href="services.html">Pengembangan</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: gold;" href="blog.html">Berita</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: gold;" href="contact.html">Kontak</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-outline-warning hover-bg-secondary rounded-0" style="color: gold;" href="#">Login</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark py-1">
+      <a class="navbar-brand" href="index.html"><img src="images/rpl_logo.png" alt="Egen" class="img-fluid" style="width: 60px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" style="color: gold; font-size: 0.85em;" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: gold; font-size: 0.85em;" href="about.html">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: gold; font-size: 0.85em;" href="services.html">Pengembangan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: gold; font-size: 0.85em;" href="blog.html">Berita</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: gold; font-size: 0.85em;" href="contact.html">Kontak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-warning hover-bg-secondary rounded-0" style="color: gold; font-size: 0.85em;" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
 
 <!-- banner -->
 <section class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
@@ -74,9 +75,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="display-1 font-weight-bold font-primary" style="font-size: 40px; color:gold;">Rekayasa Perangkat Lunak</h1>
+        <h1 class="display-1 font-weight-bold font-primary" style="font-size: 25px; color:gold;">Rekayasa Perangkat Lunak</h1>
         <br>
-        <span style=" font-size: 30px; color:gold; background-color: darkslateblue;" class="display-1 font-weight-bold font-primary">{[RPL]}</span>
+        <span style=" font-size: 20px; color:gold; background-color: darkslateblue;" class="display-1 font-weight-bold font-primary">{[RPL]}</span>
       </div>
     </div>
   </div>
@@ -278,16 +279,17 @@
 <!-- call to action -->
 <section class="section">
   <div class="container section-sm overlay-secondary-half bg-cover" data-background="images/assets/video-image.jpg">
-  <div class="row">
-    <div class="col-lg-8 offset-lg-1">
-      <h2 class="text-primary font-weight-bold">Tertarik dengan jurusan kami?</h2>
-      <p class="h4 text-white mb-4">Hubungi kami atau bisa mengunjungi lokasi yang tertera!</p>
-      <a href="contact.html" class="btn btn-lg btn-primary">Saya Tertarik</a>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-1 p-4">
+        <h2 class="text-primary font-weight-bold">Tertarik dengan jurusan kami?</h2>
+        <p class="h4 text-white mb-4">Hubungi kami atau bisa mengunjungi lokasi yang tertera!</p>
+        <a href="contact.html" class="btn btn-lg btn-primary">Saya Tertarik</a>
+      </div>
     </div>
   </div>
-</div>
 </section>
 <!-- /call to action -->
+
 
 <!-- blog -->
 <section class="section">
@@ -338,6 +340,34 @@
 </section>
 <!-- /blog -->
 
+<!-- modal -->
+<div class="modal fade" id="modalLogin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria_labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h3 class="modal-title fs-5 display-1 font-weight-bold font-primary" style="font-size: 30px;" id="staticBackdropLabel">Login User</h3>
+          </div>
+          <div class="modal-body">
+              <form action="cek_login.php" method="post">
+                  <div class="mb-3">
+                      <label for="Lusername" class="form-label">Username</label>
+                      <input type="text" class="form-control" name="username" id="Lusername" placeholder="Masukan Username Admin" autocomplete="off">
+                  </div>
+                  <div class="mb-3">
+                      <label for="Lpassword" class="form-label">Password</label>
+                      <input type="password" class="form-control" name="password" id="Lpassword" placeholder="Masukan Password Admin" autocomplete="off">
+                  </div>
+          </div>
+          <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Masuk</button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Batal</button>
+          </div>
+          </form>
+      </div>
+  </div>
+  </div>
+  <!-- /modal -->
+
 <!-- footer -->
 <footer class="bg-secondary position-relative">
   <img src="images/map.png" class="img-fluid overlay-image" alt="">
@@ -360,7 +390,7 @@
         <div class="col-md-6">
           <div class="bg-white p-4">
             <h3>Hubungi Kami</h3>
-            <form action="#">
+            <form action="https://formspree.io/f/mldrgzng" method="post">
               <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Nama">
               <input type="email" id="email" name="email" class="form-control mb-4 px-0" placeholder="Alamat Email">
               <textarea name="message" id="message" class="form-control mb-4 px-0" placeholder="Pesan"></textarea>
@@ -380,9 +410,9 @@
         </div>
         <div class="col-md-6">
           <ul class="list-inline text-md-right text-center">
-            <li class="list-inline-item"><a class="d-block p-3 text-white" href="#"><i class="ti-facebook"></i></a></li>
-            <li class="list-inline-item"><a class="d-block p-3 text-white" href="#"><i class="ti-instagram"></i></a></li>
-            <li class="list-inline-item"><a class="d-block p-3 text-white" href="#"><i class="ti-github"></i></a></li>
+            <li class="list-inline-item"><a class="d-block p-3 text-white" href="https://www.facebook.com/pages/SMK-N-5-Kota-Bekasi/594778140578017"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item"><a class="d-block p-3 text-white" href="https://www.instagram.com/smkn5kotabekasi/"><i class="ti-instagram"></i></a></li>
+            <li class="list-inline-item"><a class="d-block p-3 text-white" href="https://github.com/bagaspra16/rpl5-profile"><i class="ti-github"></i></a></li>
           </ul>
         </div>
       </div>
@@ -395,6 +425,7 @@
 <script src="plugins/jQuery/jquery.min.js"></script>
 <!-- Bootstrap JS -->
 <script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- slick slider -->
 <script src="plugins/slick/slick.min.js"></script>
 <!-- venobox -->

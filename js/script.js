@@ -1,9 +1,9 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
+/*===== CLEAR FORM BEFORE UNLOAD =====*/
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName("form")){
+      form.reset();
+  }
+}
 
 (function ($) {
   'use strict';
@@ -141,3 +141,4 @@
 
 
 })(jQuery);
+
