@@ -24,6 +24,7 @@ body {
   color: #6c6c86;
 }
 
+
 p {
   font-weight: 400;
   color: #6c6c86;
@@ -132,25 +133,25 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: linear-gradient(37deg, rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%);
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%);
   color: #fff;
   border: 0;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%) !important;
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%) !important;
   color: #fff;
   border: 0;
 }
 
 .btn-outline-primary {
   background: transparent;
-  color: rgb(255, 212, 21);
-  border-color: rgb(255, 212, 21);
+  color: rgba(0, 170, 255, 1);
+  border-color: rgba(0, 170, 255, 1);
 }
 .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%) !important;
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%) !important;
   color: #fff;
-  border-color: rgb(255, 212, 21);
+  border-color: rgba(0, 170, 255, 1);
 }
 
 .btn-secondary {
@@ -176,18 +177,18 @@ h6, .h6 {
 }
 
 .btn-transparent {
-  color: rgb(255, 212, 21);
+  color: rgba(0, 170, 255, 1);
   border: 0;
   padding-left: 0;
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%);
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .btn-transparent:active, .btn-transparent:hover, .btn-transparent.focus, .btn-transparent.active {
-  color: rgb(255, 212, 21);
+  color: rgba(0, 170, 255, 1);
   border: 0;
   padding-left: 0;
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%);
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   box-shadow: none;
@@ -200,12 +201,12 @@ body {
 }
 
 ::-moz-selection {
-  background: rgb(255, 222, 78);
+  background: rgb(45, 185, 255) ;
   color: #fff;
 }
 
 ::selection {
-  background:rgb(255, 222, 78);
+  background: rgb(45, 185, 255);
   color: #fff;
 }
 
@@ -235,7 +236,7 @@ img {
 }
 
 a {
-  color: rgb(255, 212, 21);
+  color: rgba(0, 170, 255, 1);
 }
 
 a,
@@ -261,7 +262,7 @@ select:focus {
 }
 
 a:hover {
-  color:rgb(255, 222, 78);
+  color: rgb(45, 185, 255);
 }
 
 .slick-slide {
@@ -284,7 +285,7 @@ a:hover {
 .section-border {
   height: 9px;
   width: 220px;
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%);
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%);
   border-radius: 5px;
   margin: 40px auto 90px;
 }
@@ -329,7 +330,7 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgb(255, 212, 21);
+  background: rgba(0, 170, 255, 1);
   opacity: 0.8;
 }
 .overlay-secondary {
@@ -374,7 +375,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: rgb(255, 212, 21)  !important;
+  background:rgba(0, 170, 255, 1)  !important;
 }
 
 .bg-secondary {
@@ -382,7 +383,7 @@ a:hover {
 }
 
 .text-primary {
-  color: rgb(255, 212, 21) !important;
+  color: rgba(0, 170, 255, 1) !important;
 }
 
 .text-secondary {
@@ -390,7 +391,7 @@ a:hover {
 }
 
 .text-gradient-primary {
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%);
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -468,7 +469,7 @@ a:hover {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%) !important;
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%) !important;
 }
 
 .transition {
@@ -488,7 +489,7 @@ a:hover {
 }
 .form-control:focus {
   box-shadow: none !important;
-  border-color: rgb(255, 212, 21);
+  border-color: rgba(0, 170, 255, 1);
 }
 
 textarea.form-control {
@@ -540,7 +541,7 @@ textarea.form-control {
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
-  background-color: #07085d;
+  background-color: #07085d00;
   padding: 15px 100px;
 }
 @media (max-width: 991px) {
@@ -551,7 +552,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #07085d;
+    background: #07085d00;
   }
 }
 
@@ -629,13 +630,13 @@ textarea.form-control {
   transition: inherit;
 }
 .hover-bg-primary:hover {
-  background:rgb(255, 222, 78);
+  background: rgb(45, 185, 255);
 }
 .hover-bg-primary:hover * {
   color: #fff;
 }
 .hover-bg-primary.active {
-  background: rgb(255, 222, 78);
+  background: rgb(45, 185, 255);
 }
 .hover-bg-primary.active * {
   color: #fff;
@@ -720,7 +721,7 @@ textarea.form-control {
   height: 100%;
   width: 100%;
   transform: rotate(40deg);
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%);
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%);
   left: 0;
   top: 60%;
   opacity: 0.5;
@@ -731,7 +732,7 @@ textarea.form-control {
   height: 100%;
   width: 100%;
   transform: rotate(40deg);
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%);
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%);
   left: 20%;
   top: 55%;
 }
@@ -771,7 +772,7 @@ textarea.form-control {
   display: block;
 }
 .project-hover i:hover {
-  border-color: rgb(255, 212, 21);
+  border-color: rgba(0, 170, 255, 1);
 }
 
 /* /project */
@@ -793,7 +794,7 @@ footer .overlay-image {
   box-shadow: 0px 9px 24px 0px rgba(19, 5, 44, 0.21);
 }
 .progress-block .progress-bar {
-  background: linear-gradient(37deg,rgb(255, 222, 78) 1%, rgb(255, 212, 21) 100%);
+  background: linear-gradient(37deg, rgb(45, 185, 255) 1%, rgba(0, 170, 255, 1) 100%);
   width: 0;
   transition: all 3s ease-in-out;
   top: 0;
